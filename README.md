@@ -2,20 +2,30 @@
 
 Academic project focused on content-aware image resizing using Seam Carving algorithms implemented in C++ and Python.
 
-The project explores multiple algorithmic approaches - including brute force, backtracking and dynamic programming - to identify and remove low-energy seams while preserving the most relevant visual content of an image.
+The project explores brute force, backtracking and dynamic programming approaches to efficiently identify and remove low-energy seams from images.
 
-Developed as part of a university algorithms assignment, the project emphasizes optimization techniques, algorithmic analysis and efficient problem solving applied to image processing.
+## Overview
 
-## What I Learned
+Seam carving is a content-aware image resizing technique that removes low-energy paths of pixels from an image while preserving its most relevant visual content.
 
-Through this project I gained experience in:
+This project focuses on reducing PNG images by iteratively identifying and removing seams using different algorithmic strategies.
 
-- Dynamic programming optimization techniques
-- Comparing algorithmic complexity across different approaches
-- Problem decomposition and recursive strategies
-- Image processing workflows
-- Implementing content-aware resizing systems
-- Translating theoretical algorithms into practical applications
+## Algorithmic Approaches
+
+The project compares multiple strategies for solving the seam selection problem:
+
+- Brute Force
+- Backtracking
+- Dynamic Programming
+
+This comparison allowed us to analyze trade-offs between correctness, efficiency and scalability across increasingly optimized approaches.
+
+## How It Works
+
+1. Compute the image energy map
+2. Identify the minimum-energy seam
+3. Remove the seam from the image
+4. Repeat the process iteratively until reaching the desired width
 
 ## Technologies
 
@@ -26,16 +36,22 @@ Through this project I gained experience in:
 - Backtracking
 - Brute Force algorithms
 
-## Algorithmic Approaches
+## What I Learned
 
-The project compares different strategies for solving the seam selection problem:
+Through this project I gained experience in:
 
-- Brute Force
-- Backtracking
-- Dynamic Programming
+- Dynamic programming optimization techniques
+- Algorithmic complexity analysis
+- Recursive problem solving
+- Image processing workflows
+- Translating theoretical algorithms into practical systems
 
-This allowed us to analyze trade-offs between correctness, efficiency and scalability across increasingly optimized solutions.
+## Academic Context
+
+Academic project developed for an Algorithms Design course at Universidad Torcuato Di Tella.
 
 ## Technical Report
 
-A detailed report describing the implementation process, algorithmic decisions and complexity analysis is included in `/docs/report.pdf`.
+A detailed report describing the implementation process, algorithmic decisions and complexity analysis can be found in:
+
+[`docs/report.pdf`](docs/report.pdf)
