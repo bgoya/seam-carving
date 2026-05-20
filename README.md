@@ -1,6 +1,6 @@
 # Seam Carving Image Resizing
 
-![Demo](drawing.png)
+![Demo](assets/drawing.png)
 
 Academic project focused on content-aware image resizing using Seam Carving algorithms implemented in C++ and Python.
 
