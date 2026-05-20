@@ -35,3 +35,7 @@ The project compares different strategies for solving the seam selection problem
 - Dynamic Programming
 
 This allowed us to analyze trade-offs between correctness, efficiency and scalability across increasingly optimized solutions.
+
+## Technical Report
+
+A detailed report describing the implementation process, algorithmic decisions and complexity analysis is included in `/docs/report.pdf`.
