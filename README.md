@@ -1,5 +1,7 @@
 # Seam Carving Image Resizing
 
+![Demo](drawing.png)
+
 Academic project focused on content-aware image resizing using Seam Carving algorithms implemented in C++ and Python.
 
 The project explores brute force, backtracking and dynamic programming approaches to efficiently identify and remove low-energy seams from images.
